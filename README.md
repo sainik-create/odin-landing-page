@@ -1,1 +1,1 @@
-# odin-landing-page
+I am super exited to start building an actual project! This will be a joy ride. Let's do it!!!
