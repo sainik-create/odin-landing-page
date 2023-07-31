@@ -1,10 +1,38 @@
-.header, .container0 {
-    background-color: #1F2937;
-    padding: 10px;
-}
-
 body {
     font-family: monospace;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.header {
+    width: 100vw;
+    height: 250px;
+    background-color: #1F2937;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.header2, .header1 {
+    display: flex;
+
+}
+
+.header2 {
+    flex-direction: row;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column; 
 }
 
 a {
@@ -17,19 +45,102 @@ ul, p {
     list-style-type: none;
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0;
 }
 
 h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin: 0;
 }
 
-.container2 img {
-    width: 100x;
-    height: 50px;
-}
+
 
 .container1 button {
     background: #3882F6;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 4px;
+    width: 100px;
+}
+
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+.white-box {
+    background: white;
+}
+
+.title {
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container4 {
+    display: flex;
+    gap: 8px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.quote-text {
+    max-width: 60%;
+    align-self: center;
+}
+
+.person {
+    text-align: right;
+    padding-right: 20px;
+}
+
+
+.call {
+    height: 200px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.blue-container {
+    background-color: #3882F6;
+    height: 50%;
+    width: 70%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #E5E7EB;
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    margin: 0;
 }
